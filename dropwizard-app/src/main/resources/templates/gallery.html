@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Image Gallery</title>
+    <style>
+        .gallery {
+            height: 1500px;
+            overflow-y: scroll;
+            border: 1px solid #ccc;
+            padding: 10px;
+        }
+        .image-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+        }
+        .image-grid img {
+            width: 100%;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+<h1>Image Gallery</h1>
+<div class="gallery">
+    <div class="image-grid">
+        <!-- This will iterate over all images in the model -->
+        <div th:each="image : ${images}">
+            <img th:src="@{'../static/' + ${image}}" alt="Image">
+        </div>
+    </div>
+</div>
+</body>
+</html>
