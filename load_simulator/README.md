@@ -14,6 +14,7 @@ Before running the script, ensure you have:
 - **Google Chrome** installed  
 - **ChromeDriver** (matching your Chrome version)  
 - **Selenium** installed  
+- **Docker** installed
 
 ## Installation
 
@@ -23,9 +24,9 @@ Before running the script, ensure you have:
 pip install -r requirements.txt
 ```
 
-2. Make sure that the **Spring Boot 3.4.3** application is running. Read [this README](../sb-app/README.md)
-
-3. Run the script:
+2. Run the script which will package and deploy the app with Docker:
 ```sh
-python -m SB_Simulator
-```
+python -m SB_Simulator <folder-to-app> <nr-of-iterations>
+``` 
+
+The Dockerfiles can be configured with the specific platform (e.g `linux/amd64` for mac)
