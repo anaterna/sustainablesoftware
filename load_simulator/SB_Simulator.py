@@ -27,7 +27,7 @@ class LoadTester:
                 self.driver.get(self.url)
 
                 # Wait for the page to fully load
-                time.sleep(2)
+                time.sleep(1)
 
                 # Scroll all the way to the bottom of the page
                 self.driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
@@ -43,14 +43,14 @@ class LoadTester:
 
 def main():
     parser = argparse.ArgumentParser(description="Run a Selenium load test after building an application.")
-    parser.add_argument("build_script", help="Path to the build script (e.g., sb-app)")
+    # parser.add_argument("build_script", help="Path to the build script (e.g., sb-app)")
     parser.add_argument("iterations", type=int, help="Number of times to perform the simulation")
     
     args = parser.parse_args()
 
-    # Run the build script
-    print(f"Executing build script: {args.build_script}")
-    subprocess.run([f'../{args.build_script}/build.sh'], shell=True, check=True)
+    # # Run the build script
+    # print(f"Executing build script: {args.build_script}")
+    # subprocess.run([f'../{args.build_script}/build.sh'], shell=True, check=True)
 
     # Define test parameters
     target_url = "http://localhost:8080/gallery"
