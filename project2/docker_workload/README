@@ -1,0 +1,9 @@
+To build images
+```
+docker build -t luciantosa/resnet50:<> -f Dockerfile.<> .
+```
+
+To run the container
+```
+docker run --gpus all --rm -it luciantosa/resnet50:<>
+```

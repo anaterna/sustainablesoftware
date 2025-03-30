@@ -1,0 +1,15 @@
+FROM pytorch/pytorch:2.6.0-cuda12.6-cudnn9-runtime
+
+# Set working directory
+WORKDIR /app
+
+# Copy the benchmark script
+COPY benchmark.py /app/benchmark.py
+
+ENV PYTORCH_CUDA_ALLOC_CONF="expandable_segments:True"
+
+# Pre-download ResNet50 weights to avoid downloading at runtime
+RUN python -c "import torchvision.models as models; models.resnet50(weights=models.ResNet50_Weights.DEFAULT)"
+
+# Run the benchmark
+CMD ["python", "benchmark.py"]

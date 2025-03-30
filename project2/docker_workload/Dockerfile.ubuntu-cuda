@@ -1,0 +1,31 @@
+# Inefficient High Energy Consumption Dockerfile
+FROM ubuntu:22.04
+
+# Set working directory
+WORKDIR /app
+
+# Install Python 3.10 and dependencies manually
+RUN apt-get update && apt-get install -y \
+    python3.10 python3-pip wget curl \
+    && rm -rf /var/lib/apt/lists/*
+
+# Create a symlink to ensure python points to python3.10
+RUN ln -sf /usr/bin/python3.10 /usr/bin/python
+
+# Install CUDA 12.6 manually (high power usage)
+RUN wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2204/x86_64/cuda-keyring_1.0-1_all.deb && \
+    dpkg -i cuda-keyring_1.0-1_all.deb && \
+    apt-get update && \
+    apt-get install -y cuda-toolkit-12-6
+
+# Install PyTorch 2.6 manually (without optimizations)
+RUN pip install --no-cache-dir torch==2.6.0 torchvision numpy pillow --index-url https://download.pytorch.org/whl/cu126
+
+# Copy the script into the container
+COPY benchmark.py /app/benchmark.py
+
+# Pre-download ResNet50 weights to avoid downloading at runtime
+RUN python -c "import torchvision.models as models; models.resnet50(weights=models.ResNet50_Weights.DEFAULT)"
+
+# Run benchmark (full precision)
+CMD ["python", "benchmark.py"]
