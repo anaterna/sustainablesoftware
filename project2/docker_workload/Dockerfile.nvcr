@@ -1,0 +1,17 @@
+# Optimized Energy-Efficient Dockerfile
+FROM nvcr.io/nvidia/pytorch:25.01-py3
+
+# Set working directory
+WORKDIR /app
+
+# Copy and install only necessary dependencies
+COPY benchmark.py /app/benchmark.py
+
+# Use mixed-precision for lower power usage
+ENV TORCH_USE_FLOAT16=1
+
+# Pre-download ResNet50 weights to avoid downloading at runtime
+RUN python -c "import torchvision.models as models; models.resnet50(weights=models.ResNet50_Weights.DEFAULT)"
+
+# Run the benchmark
+CMD ["python", "benchmark.py"]

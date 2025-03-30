@@ -1,0 +1,29 @@
+# Python 3.10 Base Image with CUDA 12.6 and PyTorch 2.6
+FROM python:3.10
+
+# Set working directory
+WORKDIR /app
+
+# Install system dependencies
+RUN apt-get update && apt-get install -y \
+    wget curl \
+    && rm -rf /var/lib/apt/lists/*
+
+# Install CUDA 12.6 manually
+RUN wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2204/x86_64/cuda-keyring_1.0-1_all.deb && \
+    dpkg -i cuda-keyring_1.0-1_all.deb && \
+    apt-get update && \
+    apt-get install -y cuda-toolkit-12-6
+
+RUN pip install --upgrade pip
+# Install PyTorch 2.6 with CUDA 12.6 support
+RUN pip install --no-cache-dir torch==2.6.0 torchvision numpy pillow --index-url https://download.pytorch.org/whl/cu126
+
+# Copy the benchmark script
+COPY benchmark.py /app/benchmark.py
+
+# Pre-download ResNet50 weights to avoid downloading at runtime
+RUN python -c "import torchvision.models as models; models.resnet50(weights=models.ResNet50_Weights.DEFAULT)"
+
+# Run the benchmark
+CMD ["python", "benchmark.py"]

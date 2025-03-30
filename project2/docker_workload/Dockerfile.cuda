@@ -1,0 +1,25 @@
+# Use NVIDIA PyTorch base image with CUDA Toolkit pre-installed
+FROM nvidia/cuda:12.6.3-runtime-ubuntu22.04
+
+# Set working directory
+WORKDIR /app
+
+# Install dependencies
+RUN apt-get update && apt-get install -y \
+    python3 python3-pip \
+    && rm -rf /var/lib/apt/lists/*
+
+# Create a symlink to ensure python points to python3
+RUN ln -s /usr/bin/python3 /usr/bin/python
+
+# Install PyTorch with CUDA support
+RUN pip install --no-cache-dir torch torchvision numpy pillow --index-url https://download.pytorch.org/whl/cu126
+
+# Pre-download ResNet50 weights to avoid downloading at runtime
+RUN python -c "import torchvision.models as models; models.resnet50(weights=models.ResNet50_Weights.DEFAULT)"
+
+# Copy the script into the container
+COPY benchmark.py /app/benchmark.py
+
+# Run the script
+CMD ["python", "benchmark.py"]

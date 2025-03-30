@@ -1,0 +1,22 @@
+FROM python:3.10
+
+# Set working directory
+WORKDIR /app
+
+# Install system dependencies
+RUN apt-get update && apt-get install -y \
+    wget curl \
+    && rm -rf /var/lib/apt/lists/*
+
+RUN pip install --upgrade pip
+
+RUN pip install --no-cache-dir torch==2.6.0 torchvision numpy pillow --index-url https://download.pytorch.org/whl/cu126
+
+# Copy the benchmark script
+COPY benchmark.py /app/benchmark.py
+
+# Pre-download ResNet50 weights to avoid downloading at runtime
+RUN python -c "import torchvision.models as models; models.resnet50(weights=models.ResNet50_Weights.DEFAULT)"
+
+# Run the benchmark
+CMD ["python", "benchmark.py"]
