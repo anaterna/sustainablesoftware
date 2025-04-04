@@ -1,0 +1,1151 @@
+[sudo] password for aterna: Unable to find image 'luciantosa/resnet50:cuda-base' locally
+cuda-base: Pulling from luciantosa/resnet50
+aece8493d397: Pulling fs layer
+dd4939a04761: Pulling fs layer
+b0d7cc89b769: Pulling fs layer
+1532d9024b9c: Pulling fs layer
+04fc8a31fa53: Pulling fs layer
+a14a8a8a6ebc: Pulling fs layer
+1532d9024b9c: Waiting
+04fc8a31fa53: Waiting
+a14a8a8a6ebc: Waiting
+7d61afc7a3ac: Pulling fs layer
+8bd2762ffdd9: Pulling fs layer
+2a5ee6fadd42: Pulling fs layer
+7d61afc7a3ac: Waiting
+8bd2762ffdd9: Waiting
+5a6e4f530ee9: Pulling fs layer
+22cb2e551028: Pulling fs layer
+c5a8f4350bf5: Pulling fs layer
+2a5ee6fadd42: Waiting
+22cb2e551028: Waiting
+117ec6b4ac7f: Pulling fs layer
+159efbb4acfa: Pulling fs layer
+c5a8f4350bf5: Waiting
+117ec6b4ac7f: Waiting
+bc83852e9c0e: Pulling fs layer
+5a6e4f530ee9: Waiting
+159efbb4acfa: Waiting
+bc83852e9c0e: Waiting
+dd4939a04761: Verifying Checksum
+dd4939a04761: Download complete
+1532d9024b9c: Verifying Checksum
+1532d9024b9c: Download complete
+04fc8a31fa53: Verifying Checksum
+04fc8a31fa53: Download complete
+b0d7cc89b769: Verifying Checksum
+b0d7cc89b769: Download complete
+aece8493d397: Download complete
+8bd2762ffdd9: Verifying Checksum
+8bd2762ffdd9: Download complete
+7d61afc7a3ac: Verifying Checksum
+7d61afc7a3ac: Download complete
+2a5ee6fadd42: Verifying Checksum
+2a5ee6fadd42: Download complete
+5a6e4f530ee9: Verifying Checksum
+5a6e4f530ee9: Download complete
+c5a8f4350bf5: Verifying Checksum
+c5a8f4350bf5: Download complete
+aece8493d397: Pull complete
+dd4939a04761: Pull complete
+22cb2e551028: Verifying Checksum
+22cb2e551028: Download complete
+b0d7cc89b769: Pull complete
+1532d9024b9c: Pull complete
+159efbb4acfa: Verifying Checksum
+159efbb4acfa: Download complete
+bc83852e9c0e: Verifying Checksum
+bc83852e9c0e: Download complete
+04fc8a31fa53: Pull complete
+a14a8a8a6ebc: Verifying Checksum
+a14a8a8a6ebc: Download complete
+a14a8a8a6ebc: Pull complete
+7d61afc7a3ac: Pull complete
+8bd2762ffdd9: Pull complete
+2a5ee6fadd42: Pull complete
+5a6e4f530ee9: Pull complete
+117ec6b4ac7f: Verifying Checksum
+117ec6b4ac7f: Download complete
+22cb2e551028: Pull complete
+c5a8f4350bf5: Pull complete
+117ec6b4ac7f: Pull complete
+159efbb4acfa: Pull complete
+bc83852e9c0e: Pull complete
+Digest: sha256:c7fece71131dea9af566acdf8d0e1292afb8ab9d5885d7f645030b03dd3a0370
+Status: Downloaded newer image for luciantosa/resnet50:cuda-base
+
+==========
+== CUDA ==
+==========
+
+CUDA Version 12.1.1
+
+Container image Copyright (c) 2016-2023, NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+
+This container image and its contents are governed by the NVIDIA Deep Learning Container License.
+By pulling and using the container, you accept the terms and conditions of this license:
+https://developer.nvidia.com/ngc/nvidia-deep-learning-container-license
+
+A copy of this license is made available in this container at /NGC-DL-CONTAINER-LICENSE for your convenience.
+
+WARNING: The NVIDIA Driver was not detected.  GPU functionality will not be available.
+   Use the NVIDIA Container Toolkit to start this container with GPU support; see
+   https://docs.nvidia.com/datacenter/cloud-native/ .
+
+Using cpu device
+[256, 512, 1024, 2048]
+Experiment 1/1 is running for image size 256x256
+Experiment took 29.11080026626587 seconds for experience
+Experiment 1/1 is running for image size 512x512
+Experiment took 50.73557376861572 seconds for experience
+Experiment 1/1 is running for image size 1024x1024
+Experiment took 136.99478030204773 seconds for experience
+Experiment 1/1 is running for image size 2048x2048
+Experiment took 560.0227038860321 seconds for experience
+Energy consumption in joules: 41563.01086425781 for 990.07916 sec of execution.
+[sudo] password for aterna: 
+==========
+== CUDA ==
+==========
+
+CUDA Version 12.1.1
+
+Container image Copyright (c) 2016-2023, NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+
+This container image and its contents are governed by the NVIDIA Deep Learning Container License.
+By pulling and using the container, you accept the terms and conditions of this license:
+https://developer.nvidia.com/ngc/nvidia-deep-learning-container-license
+
+A copy of this license is made available in this container at /NGC-DL-CONTAINER-LICENSE for your convenience.
+
+WARNING: The NVIDIA Driver was not detected.  GPU functionality will not be available.
+   Use the NVIDIA Container Toolkit to start this container with GPU support; see
+   https://docs.nvidia.com/datacenter/cloud-native/ .
+
+Using cpu device
+[256, 512, 1024, 2048]
+Experiment 1/1 is running for image size 256x256
+Experiment took 29.253512144088745 seconds for experience
+Experiment 1/1 is running for image size 512x512
+Experiment took 50.65859127044678 seconds for experience
+Experiment 1/1 is running for image size 1024x1024
+Experiment took 136.3394136428833 seconds for experience
+Experiment 1/1 is running for image size 2048x2048
+Experiment took 548.1073110103607 seconds for experience
+Energy consumption in joules: 37631.36462402344 for 810.062 sec of execution.
+
+==========
+== CUDA ==
+==========
+
+CUDA Version 12.1.1
+
+Container image Copyright (c) 2016-2023, NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+
+This container image and its contents are governed by the NVIDIA Deep Learning Container License.
+By pulling and using the container, you accept the terms and conditions of this license:
+https://developer.nvidia.com/ngc/nvidia-deep-learning-container-license
+
+A copy of this license is made available in this container at /NGC-DL-CONTAINER-LICENSE for your convenience.
+
+WARNING: The NVIDIA Driver was not detected.  GPU functionality will not be available.
+   Use the NVIDIA Container Toolkit to start this container with GPU support; see
+   https://docs.nvidia.com/datacenter/cloud-native/ .
+
+Using cpu device
+[256, 512, 1024, 2048]
+Experiment 1/1 is running for image size 256x256
+Experiment took 29.28389048576355 seconds for experience
+Experiment 1/1 is running for image size 512x512
+Experiment took 50.27686333656311 seconds for experience
+Experiment 1/1 is running for image size 1024x1024
+Experiment took 135.83066987991333 seconds for experience
+Experiment 1/1 is running for image size 2048x2048
+Experiment took 534.8860380649567 seconds for experience
+Energy consumption in joules: 37496.834899902344 for 790.0724 sec of execution.
+
+==========
+== CUDA ==
+==========
+
+CUDA Version 12.1.1
+
+Container image Copyright (c) 2016-2023, NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+
+This container image and its contents are governed by the NVIDIA Deep Learning Container License.
+By pulling and using the container, you accept the terms and conditions of this license:
+https://developer.nvidia.com/ngc/nvidia-deep-learning-container-license
+
+A copy of this license is made available in this container at /NGC-DL-CONTAINER-LICENSE for your convenience.
+
+WARNING: The NVIDIA Driver was not detected.  GPU functionality will not be available.
+   Use the NVIDIA Container Toolkit to start this container with GPU support; see
+   https://docs.nvidia.com/datacenter/cloud-native/ .
+
+Using cpu device
+[256, 512, 1024, 2048]
+Experiment 1/1 is running for image size 256x256
+Experiment took 29.34953260421753 seconds for experience
+Experiment 1/1 is running for image size 512x512
+Experiment took 50.78937816619873 seconds for experience
+Experiment 1/1 is running for image size 1024x1024
+Experiment took 136.5067596435547 seconds for experience
+Experiment 1/1 is running for image size 2048x2048
+Experiment took 545.8193323612213 seconds for experience
+Energy consumption in joules: 37615.04766845703 for 801.76697 sec of execution.
+
+==========
+== CUDA ==
+==========
+
+CUDA Version 12.1.1
+
+Container image Copyright (c) 2016-2023, NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+
+This container image and its contents are governed by the NVIDIA Deep Learning Container License.
+By pulling and using the container, you accept the terms and conditions of this license:
+https://developer.nvidia.com/ngc/nvidia-deep-learning-container-license
+
+A copy of this license is made available in this container at /NGC-DL-CONTAINER-LICENSE for your convenience.
+
+WARNING: The NVIDIA Driver was not detected.  GPU functionality will not be available.
+   Use the NVIDIA Container Toolkit to start this container with GPU support; see
+   https://docs.nvidia.com/datacenter/cloud-native/ .
+
+Using cpu device
+[256, 512, 1024, 2048]
+Experiment 1/1 is running for image size 256x256
+Experiment took 29.295544624328613 seconds for experience
+Experiment 1/1 is running for image size 512x512
+Experiment took 50.49626636505127 seconds for experience
+Experiment 1/1 is running for image size 1024x1024
+Experiment took 135.20714259147644 seconds for experience
+Experiment 1/1 is running for image size 2048x2048
+Experiment took 522.3071029186249 seconds for experience
+
+==========
+== CUDA ==
+==========
+
+CUDA Version 12.1.1
+
+Container image Copyright (c) 2016-2023, NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+
+This container image and its contents are governed by the NVIDIA Deep Learning Container License.
+By pulling and using the container, you accept the terms and conditions of this license:
+https://developer.nvidia.com/ngc/nvidia-deep-learning-container-license
+
+A copy of this license is made available in this container at /NGC-DL-CONTAINER-LICENSE for your convenience.
+
+WARNING: The NVIDIA Driver was not detected.  GPU functionality will not be available.
+   Use the NVIDIA Container Toolkit to start this container with GPU support; see
+   https://docs.nvidia.com/datacenter/cloud-native/ .
+
+Using cpu device
+[256, 512, 1024, 2048]
+Experiment 1/1 is running for image size 256x256
+Experiment took 29.25913953781128 seconds for experience
+Experiment 1/1 is running for image size 512x512
+Experiment took 50.692487716674805 seconds for experience
+Experiment 1/1 is running for image size 1024x1024
+Experiment took 136.15022134780884 seconds for experience
+Experiment 1/1 is running for image size 2048x2048
+Experiment took 536.0357058048248 seconds for experience
+Energy consumption in joules: 37702.40393066406 for 800.0773 sec of execution.
+
+==========
+== CUDA ==
+==========
+
+CUDA Version 12.1.1
+
+Container image Copyright (c) 2016-2023, NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+
+This container image and its contents are governed by the NVIDIA Deep Learning Container License.
+By pulling and using the container, you accept the terms and conditions of this license:
+https://developer.nvidia.com/ngc/nvidia-deep-learning-container-license
+
+A copy of this license is made available in this container at /NGC-DL-CONTAINER-LICENSE for your convenience.
+
+WARNING: The NVIDIA Driver was not detected.  GPU functionality will not be available.
+   Use the NVIDIA Container Toolkit to start this container with GPU support; see
+   https://docs.nvidia.com/datacenter/cloud-native/ .
+
+Using cpu device
+[256, 512, 1024, 2048]
+Experiment 1/1 is running for image size 256x256
+Experiment took 29.10650873184204 seconds for experience
+Experiment 1/1 is running for image size 512x512
+Experiment took 50.698429107666016 seconds for experience
+Experiment 1/1 is running for image size 1024x1024
+Experiment took 135.83470273017883 seconds for experience
+Experiment 1/1 is running for image size 2048x2048
+Experiment took 540.7792303562164 seconds for experience
+Energy consumption in joules: 37816.688903808594 for 810.05835 sec of execution.
+
+==========
+== CUDA ==
+==========
+
+CUDA Version 12.1.1
+
+Container image Copyright (c) 2016-2023, NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+
+This container image and its contents are governed by the NVIDIA Deep Learning Container License.
+By pulling and using the container, you accept the terms and conditions of this license:
+https://developer.nvidia.com/ngc/nvidia-deep-learning-container-license
+
+A copy of this license is made available in this container at /NGC-DL-CONTAINER-LICENSE for your convenience.
+
+WARNING: The NVIDIA Driver was not detected.  GPU functionality will not be available.
+   Use the NVIDIA Container Toolkit to start this container with GPU support; see
+   https://docs.nvidia.com/datacenter/cloud-native/ .
+
+Using cpu device
+[256, 512, 1024, 2048]
+Experiment 1/1 is running for image size 256x256
+Experiment took 29.35517930984497 seconds for experience
+Experiment 1/1 is running for image size 512x512
+Experiment took 50.612990379333496 seconds for experience
+Experiment 1/1 is running for image size 1024x1024
+Experiment took 135.85096144676208 seconds for experience
+Experiment 1/1 is running for image size 2048x2048
+Experiment took 537.1436309814453 seconds for experience
+Energy consumption in joules: 37843.72821044922 for 810.0749 sec of execution.
+
+==========
+== CUDA ==
+==========
+
+CUDA Version 12.1.1
+
+Container image Copyright (c) 2016-2023, NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+
+This container image and its contents are governed by the NVIDIA Deep Learning Container License.
+By pulling and using the container, you accept the terms and conditions of this license:
+https://developer.nvidia.com/ngc/nvidia-deep-learning-container-license
+
+A copy of this license is made available in this container at /NGC-DL-CONTAINER-LICENSE for your convenience.
+
+WARNING: The NVIDIA Driver was not detected.  GPU functionality will not be available.
+   Use the NVIDIA Container Toolkit to start this container with GPU support; see
+   https://docs.nvidia.com/datacenter/cloud-native/ .
+
+Using cpu device
+[256, 512, 1024, 2048]
+Experiment 1/1 is running for image size 256x256
+Experiment took 29.314971685409546 seconds for experience
+Experiment 1/1 is running for image size 512x512
+Experiment took 50.84458255767822 seconds for experience
+Experiment 1/1 is running for image size 1024x1024
+Experiment took 136.88129925727844 seconds for experience
+Experiment 1/1 is running for image size 2048x2048
+Experiment took 544.5523059368134 seconds for experience
+Energy consumption in joules: 38094.808837890625 for 810.0656 sec of execution.
+
+==========
+== CUDA ==
+==========
+
+CUDA Version 12.1.1
+
+Container image Copyright (c) 2016-2023, NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+
+This container image and its contents are governed by the NVIDIA Deep Learning Container License.
+By pulling and using the container, you accept the terms and conditions of this license:
+https://developer.nvidia.com/ngc/nvidia-deep-learning-container-license
+
+A copy of this license is made available in this container at /NGC-DL-CONTAINER-LICENSE for your convenience.
+
+WARNING: The NVIDIA Driver was not detected.  GPU functionality will not be available.
+   Use the NVIDIA Container Toolkit to start this container with GPU support; see
+   https://docs.nvidia.com/datacenter/cloud-native/ .
+
+Using cpu device
+[256, 512, 1024, 2048]
+Experiment 1/1 is running for image size 256x256
+Experiment took 29.26621699333191 seconds for experience
+Experiment 1/1 is running for image size 512x512
+Experiment took 50.39711308479309 seconds for experience
+Experiment 1/1 is running for image size 1024x1024
+Experiment took 135.53393602371216 seconds for experience
+Experiment 1/1 is running for image size 2048x2048
+Experiment took 539.2241039276123 seconds for experience
+Energy consumption in joules: 37705.210998535156 for 800.07556 sec of execution.
+
+==========
+== CUDA ==
+==========
+
+CUDA Version 12.1.1
+
+Container image Copyright (c) 2016-2023, NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+
+This container image and its contents are governed by the NVIDIA Deep Learning Container License.
+By pulling and using the container, you accept the terms and conditions of this license:
+https://developer.nvidia.com/ngc/nvidia-deep-learning-container-license
+
+A copy of this license is made available in this container at /NGC-DL-CONTAINER-LICENSE for your convenience.
+
+WARNING: The NVIDIA Driver was not detected.  GPU functionality will not be available.
+   Use the NVIDIA Container Toolkit to start this container with GPU support; see
+   https://docs.nvidia.com/datacenter/cloud-native/ .
+
+Using cpu device
+[256, 512, 1024, 2048]
+Experiment 1/1 is running for image size 256x256
+Experiment took 29.277705430984497 seconds for experience
+Experiment 1/1 is running for image size 512x512
+Experiment took 51.28291869163513 seconds for experience
+Experiment 1/1 is running for image size 1024x1024
+Experiment took 136.73717308044434 seconds for experience
+Experiment 1/1 is running for image size 2048x2048
+Experiment took 544.4114227294922 seconds for experience
+Energy consumption in joules: 38102.43615722656 for 810.066 sec of execution.
+
+==========
+== CUDA ==
+==========
+
+CUDA Version 12.1.1
+
+Container image Copyright (c) 2016-2023, NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+
+This container image and its contents are governed by the NVIDIA Deep Learning Container License.
+By pulling and using the container, you accept the terms and conditions of this license:
+https://developer.nvidia.com/ngc/nvidia-deep-learning-container-license
+
+A copy of this license is made available in this container at /NGC-DL-CONTAINER-LICENSE for your convenience.
+
+WARNING: The NVIDIA Driver was not detected.  GPU functionality will not be available.
+   Use the NVIDIA Container Toolkit to start this container with GPU support; see
+   https://docs.nvidia.com/datacenter/cloud-native/ .
+
+Using cpu device
+[256, 512, 1024, 2048]
+Experiment 1/1 is running for image size 256x256
+Experiment took 29.154696226119995 seconds for experience
+Experiment 1/1 is running for image size 512x512
+Experiment took 50.80268931388855 seconds for experience
+Experiment 1/1 is running for image size 1024x1024
+Experiment took 139.45300436019897 seconds for experience
+Experiment 1/1 is running for image size 2048x2048
+Experiment took 533.8501760959625 seconds for experience
+
+==========
+== CUDA ==
+==========
+
+CUDA Version 12.1.1
+
+Container image Copyright (c) 2016-2023, NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+
+This container image and its contents are governed by the NVIDIA Deep Learning Container License.
+By pulling and using the container, you accept the terms and conditions of this license:
+https://developer.nvidia.com/ngc/nvidia-deep-learning-container-license
+
+A copy of this license is made available in this container at /NGC-DL-CONTAINER-LICENSE for your convenience.
+
+WARNING: The NVIDIA Driver was not detected.  GPU functionality will not be available.
+   Use the NVIDIA Container Toolkit to start this container with GPU support; see
+   https://docs.nvidia.com/datacenter/cloud-native/ .
+
+Using cpu device
+[256, 512, 1024, 2048]
+Experiment 1/1 is running for image size 256x256
+Experiment took 29.38190793991089 seconds for experience
+Experiment 1/1 is running for image size 512x512
+Experiment took 50.80085325241089 seconds for experience
+Experiment 1/1 is running for image size 1024x1024
+Experiment took 137.21513414382935 seconds for experience
+Experiment 1/1 is running for image size 2048x2048
+Experiment took 530.5676383972168 seconds for experience
+Energy consumption in joules: 37453.37976074219 for 790.07416 sec of execution.
+
+==========
+== CUDA ==
+==========
+
+CUDA Version 12.1.1
+
+Container image Copyright (c) 2016-2023, NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+
+This container image and its contents are governed by the NVIDIA Deep Learning Container License.
+By pulling and using the container, you accept the terms and conditions of this license:
+https://developer.nvidia.com/ngc/nvidia-deep-learning-container-license
+
+A copy of this license is made available in this container at /NGC-DL-CONTAINER-LICENSE for your convenience.
+
+WARNING: The NVIDIA Driver was not detected.  GPU functionality will not be available.
+   Use the NVIDIA Container Toolkit to start this container with GPU support; see
+   https://docs.nvidia.com/datacenter/cloud-native/ .
+
+Using cpu device
+[256, 512, 1024, 2048]
+Experiment 1/1 is running for image size 256x256
+Experiment took 29.143929719924927 seconds for experience
+Experiment 1/1 is running for image size 512x512
+Experiment took 50.772762298583984 seconds for experience
+Experiment 1/1 is running for image size 1024x1024
+Experiment took 136.9005482196808 seconds for experience
+Experiment 1/1 is running for image size 2048x2048
+Experiment took 547.4923260211945 seconds for experience
+Energy consumption in joules: 37819.01708984375 for 810.0768 sec of execution.
+
+==========
+== CUDA ==
+==========
+
+CUDA Version 12.1.1
+
+Container image Copyright (c) 2016-2023, NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+
+This container image and its contents are governed by the NVIDIA Deep Learning Container License.
+By pulling and using the container, you accept the terms and conditions of this license:
+https://developer.nvidia.com/ngc/nvidia-deep-learning-container-license
+
+A copy of this license is made available in this container at /NGC-DL-CONTAINER-LICENSE for your convenience.
+
+WARNING: The NVIDIA Driver was not detected.  GPU functionality will not be available.
+   Use the NVIDIA Container Toolkit to start this container with GPU support; see
+   https://docs.nvidia.com/datacenter/cloud-native/ .
+
+Using cpu device
+[256, 512, 1024, 2048]
+Experiment 1/1 is running for image size 256x256
+Experiment took 29.34589433670044 seconds for experience
+Experiment 1/1 is running for image size 512x512
+Experiment took 50.50826668739319 seconds for experience
+Experiment 1/1 is running for image size 1024x1024
+Experiment took 136.04421973228455 seconds for experience
+Experiment 1/1 is running for image size 2048x2048
+Experiment took 537.4931044578552 seconds for experience
+Energy consumption in joules: 37685.58337402344 for 800.08026 sec of execution.
+
+==========
+== CUDA ==
+==========
+
+CUDA Version 12.1.1
+
+Container image Copyright (c) 2016-2023, NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+
+This container image and its contents are governed by the NVIDIA Deep Learning Container License.
+By pulling and using the container, you accept the terms and conditions of this license:
+https://developer.nvidia.com/ngc/nvidia-deep-learning-container-license
+
+A copy of this license is made available in this container at /NGC-DL-CONTAINER-LICENSE for your convenience.
+
+WARNING: The NVIDIA Driver was not detected.  GPU functionality will not be available.
+   Use the NVIDIA Container Toolkit to start this container with GPU support; see
+   https://docs.nvidia.com/datacenter/cloud-native/ .
+
+Using cpu device
+[256, 512, 1024, 2048]
+Experiment 1/1 is running for image size 256x256
+Experiment took 29.690008640289307 seconds for experience
+Experiment 1/1 is running for image size 512x512
+Experiment took 50.41822528839111 seconds for experience
+Experiment 1/1 is running for image size 1024x1024
+Experiment took 135.99596643447876 seconds for experience
+Experiment 1/1 is running for image size 2048x2048
+Experiment took 540.3518812656403 seconds for experience
+Energy consumption in joules: 37747.591796875 for 800.0732 sec of execution.
+
+==========
+== CUDA ==
+==========
+
+CUDA Version 12.1.1
+
+Container image Copyright (c) 2016-2023, NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+
+This container image and its contents are governed by the NVIDIA Deep Learning Container License.
+By pulling and using the container, you accept the terms and conditions of this license:
+https://developer.nvidia.com/ngc/nvidia-deep-learning-container-license
+
+A copy of this license is made available in this container at /NGC-DL-CONTAINER-LICENSE for your convenience.
+
+WARNING: The NVIDIA Driver was not detected.  GPU functionality will not be available.
+   Use the NVIDIA Container Toolkit to start this container with GPU support; see
+   https://docs.nvidia.com/datacenter/cloud-native/ .
+
+Using cpu device
+[256, 512, 1024, 2048]
+Experiment 1/1 is running for image size 256x256
+Experiment took 29.4501211643219 seconds for experience
+Experiment 1/1 is running for image size 512x512
+Experiment took 50.43995237350464 seconds for experience
+Experiment 1/1 is running for image size 1024x1024
+Experiment took 135.70040774345398 seconds for experience
+Experiment 1/1 is running for image size 2048x2048
+Experiment took 550.5447738170624 seconds for experience
+Energy consumption in joules: 37943.682373046875 for 810.076 sec of execution.
+
+==========
+== CUDA ==
+==========
+
+CUDA Version 12.1.1
+
+Container image Copyright (c) 2016-2023, NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+
+This container image and its contents are governed by the NVIDIA Deep Learning Container License.
+By pulling and using the container, you accept the terms and conditions of this license:
+https://developer.nvidia.com/ngc/nvidia-deep-learning-container-license
+
+A copy of this license is made available in this container at /NGC-DL-CONTAINER-LICENSE for your convenience.
+
+WARNING: The NVIDIA Driver was not detected.  GPU functionality will not be available.
+   Use the NVIDIA Container Toolkit to start this container with GPU support; see
+   https://docs.nvidia.com/datacenter/cloud-native/ .
+
+Using cpu device
+[256, 512, 1024, 2048]
+Experiment 1/1 is running for image size 256x256
+Experiment took 29.303164958953857 seconds for experience
+Experiment 1/1 is running for image size 512x512
+Experiment took 50.3211772441864 seconds for experience
+Experiment 1/1 is running for image size 1024x1024
+Experiment took 137.57582068443298 seconds for experience
+Experiment 1/1 is running for image size 2048x2048
+Experiment took 548.4845416545868 seconds for experience
+Energy consumption in joules: 38099.715270996094 for 810.0808 sec of execution.
+
+==========
+== CUDA ==
+==========
+
+CUDA Version 12.1.1
+
+Container image Copyright (c) 2016-2023, NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+
+This container image and its contents are governed by the NVIDIA Deep Learning Container License.
+By pulling and using the container, you accept the terms and conditions of this license:
+https://developer.nvidia.com/ngc/nvidia-deep-learning-container-license
+
+A copy of this license is made available in this container at /NGC-DL-CONTAINER-LICENSE for your convenience.
+
+WARNING: The NVIDIA Driver was not detected.  GPU functionality will not be available.
+   Use the NVIDIA Container Toolkit to start this container with GPU support; see
+   https://docs.nvidia.com/datacenter/cloud-native/ .
+
+Using cpu device
+[256, 512, 1024, 2048]
+Experiment 1/1 is running for image size 256x256
+Experiment took 29.353012561798096 seconds for experience
+Experiment 1/1 is running for image size 512x512
+Experiment took 50.374656677246094 seconds for experience
+Experiment 1/1 is running for image size 1024x1024
+Experiment took 135.04138898849487 seconds for experience
+Experiment 1/1 is running for image size 2048x2048
+Experiment took 541.0967090129852 seconds for experience
+
+==========
+== CUDA ==
+==========
+
+CUDA Version 12.1.1
+
+Container image Copyright (c) 2016-2023, NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+
+This container image and its contents are governed by the NVIDIA Deep Learning Container License.
+By pulling and using the container, you accept the terms and conditions of this license:
+https://developer.nvidia.com/ngc/nvidia-deep-learning-container-license
+
+A copy of this license is made available in this container at /NGC-DL-CONTAINER-LICENSE for your convenience.
+
+WARNING: The NVIDIA Driver was not detected.  GPU functionality will not be available.
+   Use the NVIDIA Container Toolkit to start this container with GPU support; see
+   https://docs.nvidia.com/datacenter/cloud-native/ .
+
+Using cpu device
+[256, 512, 1024, 2048]
+Experiment 1/1 is running for image size 256x256
+Experiment took 29.314762830734253 seconds for experience
+Experiment 1/1 is running for image size 512x512
+Experiment took 50.9757080078125 seconds for experience
+Experiment 1/1 is running for image size 1024x1024
+Experiment took 137.81651544570923 seconds for experience
+Experiment 1/1 is running for image size 2048x2048
+Experiment took 541.046169757843 seconds for experience
+Energy consumption in joules: 37831.21936035156 for 800.07684 sec of execution.
+
+==========
+== CUDA ==
+==========
+
+CUDA Version 12.1.1
+
+Container image Copyright (c) 2016-2023, NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+
+This container image and its contents are governed by the NVIDIA Deep Learning Container License.
+By pulling and using the container, you accept the terms and conditions of this license:
+https://developer.nvidia.com/ngc/nvidia-deep-learning-container-license
+
+A copy of this license is made available in this container at /NGC-DL-CONTAINER-LICENSE for your convenience.
+
+WARNING: The NVIDIA Driver was not detected.  GPU functionality will not be available.
+   Use the NVIDIA Container Toolkit to start this container with GPU support; see
+   https://docs.nvidia.com/datacenter/cloud-native/ .
+
+Using cpu device
+[256, 512, 1024, 2048]
+Experiment 1/1 is running for image size 256x256
+Experiment took 29.337393522262573 seconds for experience
+Experiment 1/1 is running for image size 512x512
+Experiment took 50.95697522163391 seconds for experience
+Experiment 1/1 is running for image size 1024x1024
+Experiment took 136.10169506072998 seconds for experience
+Experiment 1/1 is running for image size 2048x2048
+Experiment took 545.3133580684662 seconds for experience
+Energy consumption in joules: 37935.01739501953 for 800.06665 sec of execution.
+
+==========
+== CUDA ==
+==========
+
+CUDA Version 12.1.1
+
+Container image Copyright (c) 2016-2023, NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+
+This container image and its contents are governed by the NVIDIA Deep Learning Container License.
+By pulling and using the container, you accept the terms and conditions of this license:
+https://developer.nvidia.com/ngc/nvidia-deep-learning-container-license
+
+A copy of this license is made available in this container at /NGC-DL-CONTAINER-LICENSE for your convenience.
+
+WARNING: The NVIDIA Driver was not detected.  GPU functionality will not be available.
+   Use the NVIDIA Container Toolkit to start this container with GPU support; see
+   https://docs.nvidia.com/datacenter/cloud-native/ .
+
+Using cpu device
+[256, 512, 1024, 2048]
+Experiment 1/1 is running for image size 256x256
+Experiment took 29.304936408996582 seconds for experience
+Experiment 1/1 is running for image size 512x512
+Experiment took 50.71710419654846 seconds for experience
+Experiment 1/1 is running for image size 1024x1024
+Experiment took 137.20543932914734 seconds for experience
+Experiment 1/1 is running for image size 2048x2048
+Experiment took 541.282304763794 seconds for experience
+Energy consumption in joules: 37479.759521484375 for 800.05975 sec of execution.
+
+==========
+== CUDA ==
+==========
+
+CUDA Version 12.1.1
+
+Container image Copyright (c) 2016-2023, NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+
+This container image and its contents are governed by the NVIDIA Deep Learning Container License.
+By pulling and using the container, you accept the terms and conditions of this license:
+https://developer.nvidia.com/ngc/nvidia-deep-learning-container-license
+
+A copy of this license is made available in this container at /NGC-DL-CONTAINER-LICENSE for your convenience.
+
+WARNING: The NVIDIA Driver was not detected.  GPU functionality will not be available.
+   Use the NVIDIA Container Toolkit to start this container with GPU support; see
+   https://docs.nvidia.com/datacenter/cloud-native/ .
+
+Using cpu device
+[256, 512, 1024, 2048]
+Experiment 1/1 is running for image size 256x256
+Experiment took 29.31154751777649 seconds for experience
+Experiment 1/1 is running for image size 512x512
+Experiment took 50.44350457191467 seconds for experience
+Experiment 1/1 is running for image size 1024x1024
+Experiment took 137.2471306324005 seconds for experience
+Experiment 1/1 is running for image size 2048x2048
+Experiment took 563.2097432613373 seconds for experience
+Energy consumption in joules: 38546.92510986328 for 820.0774 sec of execution.
+
+==========
+== CUDA ==
+==========
+
+CUDA Version 12.1.1
+
+Container image Copyright (c) 2016-2023, NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+
+This container image and its contents are governed by the NVIDIA Deep Learning Container License.
+By pulling and using the container, you accept the terms and conditions of this license:
+https://developer.nvidia.com/ngc/nvidia-deep-learning-container-license
+
+A copy of this license is made available in this container at /NGC-DL-CONTAINER-LICENSE for your convenience.
+
+WARNING: The NVIDIA Driver was not detected.  GPU functionality will not be available.
+   Use the NVIDIA Container Toolkit to start this container with GPU support; see
+   https://docs.nvidia.com/datacenter/cloud-native/ .
+
+Using cpu device
+[256, 512, 1024, 2048]
+Experiment 1/1 is running for image size 256x256
+Experiment took 29.222597360610962 seconds for experience
+Experiment 1/1 is running for image size 512x512
+Experiment took 50.12558197975159 seconds for experience
+Experiment 1/1 is running for image size 1024x1024
+Experiment took 134.6938121318817 seconds for experience
+Experiment 1/1 is running for image size 2048x2048
+Experiment took 550.9944503307343 seconds for experience
+Energy consumption in joules: 37872.992736816406 for 820.064 sec of execution.
+
+==========
+== CUDA ==
+==========
+
+CUDA Version 12.1.1
+
+Container image Copyright (c) 2016-2023, NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+
+This container image and its contents are governed by the NVIDIA Deep Learning Container License.
+By pulling and using the container, you accept the terms and conditions of this license:
+https://developer.nvidia.com/ngc/nvidia-deep-learning-container-license
+
+A copy of this license is made available in this container at /NGC-DL-CONTAINER-LICENSE for your convenience.
+
+WARNING: The NVIDIA Driver was not detected.  GPU functionality will not be available.
+   Use the NVIDIA Container Toolkit to start this container with GPU support; see
+   https://docs.nvidia.com/datacenter/cloud-native/ .
+
+Using cpu device
+[256, 512, 1024, 2048]
+Experiment 1/1 is running for image size 256x256
+Experiment took 29.486214637756348 seconds for experience
+Experiment 1/1 is running for image size 512x512
+Experiment took 50.84091854095459 seconds for experience
+Experiment 1/1 is running for image size 1024x1024
+Experiment took 135.9794888496399 seconds for experience
+Experiment 1/1 is running for image size 2048x2048
+Experiment took 540.7627539634705 seconds for experience
+Energy consumption in joules: 37788.577880859375 for 800.07263 sec of execution.
+
+==========
+== CUDA ==
+==========
+
+CUDA Version 12.1.1
+
+Container image Copyright (c) 2016-2023, NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+
+This container image and its contents are governed by the NVIDIA Deep Learning Container License.
+By pulling and using the container, you accept the terms and conditions of this license:
+https://developer.nvidia.com/ngc/nvidia-deep-learning-container-license
+
+A copy of this license is made available in this container at /NGC-DL-CONTAINER-LICENSE for your convenience.
+
+WARNING: The NVIDIA Driver was not detected.  GPU functionality will not be available.
+   Use the NVIDIA Container Toolkit to start this container with GPU support; see
+   https://docs.nvidia.com/datacenter/cloud-native/ .
+
+Using cpu device
+[256, 512, 1024, 2048]
+Experiment 1/1 is running for image size 256x256
+Experiment took 29.324084520339966 seconds for experience
+Experiment 1/1 is running for image size 512x512
+Experiment took 50.96544432640076 seconds for experience
+Experiment 1/1 is running for image size 1024x1024
+Experiment took 136.63267040252686 seconds for experience
+Experiment 1/1 is running for image size 2048x2048
+Experiment took 552.7376186847687 seconds for experience
+
+==========
+== CUDA ==
+==========
+
+CUDA Version 12.1.1
+
+Container image Copyright (c) 2016-2023, NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+
+This container image and its contents are governed by the NVIDIA Deep Learning Container License.
+By pulling and using the container, you accept the terms and conditions of this license:
+https://developer.nvidia.com/ngc/nvidia-deep-learning-container-license
+
+A copy of this license is made available in this container at /NGC-DL-CONTAINER-LICENSE for your convenience.
+
+WARNING: The NVIDIA Driver was not detected.  GPU functionality will not be available.
+   Use the NVIDIA Container Toolkit to start this container with GPU support; see
+   https://docs.nvidia.com/datacenter/cloud-native/ .
+
+Using cpu device
+[256, 512, 1024, 2048]
+Experiment 1/1 is running for image size 256x256
+Experiment took 29.167479991912842 seconds for experience
+Experiment 1/1 is running for image size 512x512
+Experiment took 50.64103126525879 seconds for experience
+Experiment 1/1 is running for image size 1024x1024
+Experiment took 134.9826865196228 seconds for experience
+Experiment 1/1 is running for image size 2048x2048
+Experiment took 536.2546350955963 seconds for experience
+Energy consumption in joules: 37467.91033935547 for 790.07385 sec of execution.
+
+==========
+== CUDA ==
+==========
+
+CUDA Version 12.1.1
+
+Container image Copyright (c) 2016-2023, NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+
+This container image and its contents are governed by the NVIDIA Deep Learning Container License.
+By pulling and using the container, you accept the terms and conditions of this license:
+https://developer.nvidia.com/ngc/nvidia-deep-learning-container-license
+
+A copy of this license is made available in this container at /NGC-DL-CONTAINER-LICENSE for your convenience.
+
+WARNING: The NVIDIA Driver was not detected.  GPU functionality will not be available.
+   Use the NVIDIA Container Toolkit to start this container with GPU support; see
+   https://docs.nvidia.com/datacenter/cloud-native/ .
+
+Using cpu device
+[256, 512, 1024, 2048]
+Experiment 1/1 is running for image size 256x256
+Experiment took 29.28376579284668 seconds for experience
+Experiment 1/1 is running for image size 512x512
+Experiment took 50.62120532989502 seconds for experience
+Experiment 1/1 is running for image size 1024x1024
+Experiment took 136.7323877811432 seconds for experience
+Experiment 1/1 is running for image size 2048x2048
+Experiment took 543.1556270122528 seconds for experience
+Energy consumption in joules: 37854.31689453125 for 800.0711 sec of execution.
+
+==========
+== CUDA ==
+==========
+
+CUDA Version 12.1.1
+
+Container image Copyright (c) 2016-2023, NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+
+This container image and its contents are governed by the NVIDIA Deep Learning Container License.
+By pulling and using the container, you accept the terms and conditions of this license:
+https://developer.nvidia.com/ngc/nvidia-deep-learning-container-license
+
+A copy of this license is made available in this container at /NGC-DL-CONTAINER-LICENSE for your convenience.
+
+WARNING: The NVIDIA Driver was not detected.  GPU functionality will not be available.
+   Use the NVIDIA Container Toolkit to start this container with GPU support; see
+   https://docs.nvidia.com/datacenter/cloud-native/ .
+
+Using cpu device
+[256, 512, 1024, 2048]
+Experiment 1/1 is running for image size 256x256
+Experiment took 29.405991554260254 seconds for experience
+Experiment 1/1 is running for image size 512x512
+Experiment took 50.73395776748657 seconds for experience
+Experiment 1/1 is running for image size 1024x1024
+Experiment took 136.1807677745819 seconds for experience
+Experiment 1/1 is running for image size 2048x2048
+Experiment took 557.5294930934906 seconds for experience
+Energy consumption in joules: 38033.993408203125 for 820.05383 sec of execution.
+
+==========
+== CUDA ==
+==========
+
+CUDA Version 12.1.1
+
+Container image Copyright (c) 2016-2023, NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+
+This container image and its contents are governed by the NVIDIA Deep Learning Container License.
+By pulling and using the container, you accept the terms and conditions of this license:
+https://developer.nvidia.com/ngc/nvidia-deep-learning-container-license
+
+A copy of this license is made available in this container at /NGC-DL-CONTAINER-LICENSE for your convenience.
+
+WARNING: The NVIDIA Driver was not detected.  GPU functionality will not be available.
+   Use the NVIDIA Container Toolkit to start this container with GPU support; see
+   https://docs.nvidia.com/datacenter/cloud-native/ .
+
+Using cpu device
+[256, 512, 1024, 2048]
+Experiment 1/1 is running for image size 256x256
+Experiment took 29.1772563457489 seconds for experience
+Experiment 1/1 is running for image size 512x512
+Experiment took 50.326337814331055 seconds for experience
+Experiment 1/1 is running for image size 1024x1024
+Experiment took 136.5355567932129 seconds for experience
+Experiment 1/1 is running for image size 2048x2048
+Experiment took 539.1836593151093 seconds for experience
+Energy consumption in joules: 37586.180236816406 for 790.08545 sec of execution.
+[sudo] password for aterna: 
+==========
+== CUDA ==
+==========
+
+CUDA Version 12.1.1
+
+Container image Copyright (c) 2016-2023, NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+
+This container image and its contents are governed by the NVIDIA Deep Learning Container License.
+By pulling and using the container, you accept the terms and conditions of this license:
+https://developer.nvidia.com/ngc/nvidia-deep-learning-container-license
+
+A copy of this license is made available in this container at /NGC-DL-CONTAINER-LICENSE for your convenience.
+
+WARNING: The NVIDIA Driver was not detected.  GPU functionality will not be available.
+   Use the NVIDIA Container Toolkit to start this container with GPU support; see
+   https://docs.nvidia.com/datacenter/cloud-native/ .
+
+Using cpu device
+[256, 512, 1024, 2048]
+Experiment 1/1 is running for image size 256x256
+Experiment took 29.756242752075195 seconds for experience
+Experiment 1/1 is running for image size 512x512
+Experiment took 50.98017334938049 seconds for experience
+Experiment 1/1 is running for image size 1024x1024
+Experiment took 137.46543049812317 seconds for experience
+Experiment 1/1 is running for image size 2048x2048
+Experiment took 542.3757979869843 seconds for experience
+Energy consumption in joules: 37678.30126953125 for 810.0754 sec of execution.
+
+==========
+== CUDA ==
+==========
+
+CUDA Version 12.1.1
+
+Container image Copyright (c) 2016-2023, NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+
+This container image and its contents are governed by the NVIDIA Deep Learning Container License.
+By pulling and using the container, you accept the terms and conditions of this license:
+https://developer.nvidia.com/ngc/nvidia-deep-learning-container-license
+
+A copy of this license is made available in this container at /NGC-DL-CONTAINER-LICENSE for your convenience.
+
+WARNING: The NVIDIA Driver was not detected.  GPU functionality will not be available.
+   Use the NVIDIA Container Toolkit to start this container with GPU support; see
+   https://docs.nvidia.com/datacenter/cloud-native/ .
+
+Using cpu device
+[256, 512, 1024, 2048]
+Experiment 1/1 is running for image size 256x256
+Experiment took 29.230190753936768 seconds for experience
+Experiment 1/1 is running for image size 512x512
+Experiment took 50.38649868965149 seconds for experience
+Experiment 1/1 is running for image size 1024x1024
+Experiment took 137.25809025764465 seconds for experience
+Experiment 1/1 is running for image size 2048x2048
+Experiment took 542.220801115036 seconds for experience
+Energy consumption in joules: 38012.81494140625 for 810.0788 sec of execution.
+
+==========
+== CUDA ==
+==========
+
+CUDA Version 12.1.1
+
+Container image Copyright (c) 2016-2023, NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+
+This container image and its contents are governed by the NVIDIA Deep Learning Container License.
+By pulling and using the container, you accept the terms and conditions of this license:
+https://developer.nvidia.com/ngc/nvidia-deep-learning-container-license
+
+A copy of this license is made available in this container at /NGC-DL-CONTAINER-LICENSE for your convenience.
+
+WARNING: The NVIDIA Driver was not detected.  GPU functionality will not be available.
+   Use the NVIDIA Container Toolkit to start this container with GPU support; see
+   https://docs.nvidia.com/datacenter/cloud-native/ .
+
+Using cpu device
+[256, 512, 1024, 2048]
+Experiment 1/1 is running for image size 256x256
+Experiment took 29.322147369384766 seconds for experience
+Experiment 1/1 is running for image size 512x512
+Experiment took 50.61497211456299 seconds for experience
+Experiment 1/1 is running for image size 1024x1024
+Experiment took 137.15937614440918 seconds for experience
+Experiment 1/1 is running for image size 2048x2048
+Experiment took 531.6593091487885 seconds for experience
+Energy consumption in joules: 37401.77380371094 for 790.0548 sec of execution.
+
+==========
+== CUDA ==
+==========
+
+CUDA Version 12.1.1
+
+Container image Copyright (c) 2016-2023, NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+
+This container image and its contents are governed by the NVIDIA Deep Learning Container License.
+By pulling and using the container, you accept the terms and conditions of this license:
+https://developer.nvidia.com/ngc/nvidia-deep-learning-container-license
+
+A copy of this license is made available in this container at /NGC-DL-CONTAINER-LICENSE for your convenience.
+
+WARNING: The NVIDIA Driver was not detected.  GPU functionality will not be available.
+   Use the NVIDIA Container Toolkit to start this container with GPU support; see
+   https://docs.nvidia.com/datacenter/cloud-native/ .
+
+Using cpu device
+[256, 512, 1024, 2048]
+Experiment 1/1 is running for image size 256x256
+Experiment took 29.090551614761353 seconds for experience
+Experiment 1/1 is running for image size 512x512
+Experiment took 50.160419940948486 seconds for experience
+Experiment 1/1 is running for image size 1024x1024
+Experiment took 135.99784874916077 seconds for experience
+Experiment 1/1 is running for image size 2048x2048
+Experiment took 538.9010663032532 seconds for experience
+Energy consumption in joules: 37625.919372558594 for 790.074 sec of execution.
+
+==========
+== CUDA ==
+==========
+
+CUDA Version 12.1.1
+
+Container image Copyright (c) 2016-2023, NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+
+This container image and its contents are governed by the NVIDIA Deep Learning Container License.
+By pulling and using the container, you accept the terms and conditions of this license:
+https://developer.nvidia.com/ngc/nvidia-deep-learning-container-license
+
+A copy of this license is made available in this container at /NGC-DL-CONTAINER-LICENSE for your convenience.
+
+WARNING: The NVIDIA Driver was not detected.  GPU functionality will not be available.
+   Use the NVIDIA Container Toolkit to start this container with GPU support; see
+   https://docs.nvidia.com/datacenter/cloud-native/ .
+
+Using cpu device
+[256, 512, 1024, 2048]
+Experiment 1/1 is running for image size 256x256
+Experiment took 29.58502459526062 seconds for experience
+Experiment 1/1 is running for image size 512x512
+Experiment took 50.601863622665405 seconds for experience
+Experiment 1/1 is running for image size 1024x1024
+Experiment took 138.92251563072205 seconds for experience
+Experiment 1/1 is running for image size 2048x2048
+Experiment took 542.5344169139862 seconds for experience
+Energy consumption in joules: 37813.067626953125 for 810.06244 sec of execution.
+
+==========
+== CUDA ==
+==========
+
+CUDA Version 12.1.1
+
+Container image Copyright (c) 2016-2023, NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+
+This container image and its contents are governed by the NVIDIA Deep Learning Container License.
+By pulling and using the container, you accept the terms and conditions of this license:
+https://developer.nvidia.com/ngc/nvidia-deep-learning-container-license
+
+A copy of this license is made available in this container at /NGC-DL-CONTAINER-LICENSE for your convenience.
+
+WARNING: The NVIDIA Driver was not detected.  GPU functionality will not be available.
+   Use the NVIDIA Container Toolkit to start this container with GPU support; see
+   https://docs.nvidia.com/datacenter/cloud-native/ .
+
+Using cpu device
+[256, 512, 1024, 2048]
+Experiment 1/1 is running for image size 256x256
+Experiment took 29.076106071472168 seconds for experience
+Experiment 1/1 is running for image size 512x512
+Experiment took 50.1800639629364 seconds for experience
+Experiment 1/1 is running for image size 1024x1024
+Experiment took 136.6768274307251 seconds for experience
+Experiment 1/1 is running for image size 2048x2048
+Experiment took 530.0787239074707 seconds for experience
+Energy consumption in joules: 37369.181701660156 for 790.09784 sec of execution.

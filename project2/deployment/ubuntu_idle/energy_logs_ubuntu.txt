@@ -1,0 +1,43 @@
+Unable to find image 'luciantosa/resnet50:ubuntu' locally
+ubuntu: Pulling from luciantosa/resnet50
+9cb31e2e37ea: Already exists
+36e40cf583e8: Already exists
+a4cec14711a6: Already exists
+f03ef05031f1: Already exists
+4497933460c8: Already exists
+920356aaff30: Already exists
+6ed74fa73f97: Already exists
+Digest: sha256:41ce90315d231f2a6715cc2afaf907ff7d0682d69bf7f09e0f93bbd66be94af9
+Status: Downloaded newer image for luciantosa/resnet50:ubuntu
+Energy consumption in joules: 2049.2998657226563 for 190.05133 sec of execution.
+Energy consumption in joules: 2048.3024291992188 for 190.04865 sec of execution.
+Energy consumption in joules: 2046.546630859375 for 190.05338 sec of execution.
+Energy consumption in joules: 2048.384765625 for 190.04909 sec of execution.
+Energy consumption in joules: 2047.218505859375 for 190.05612 sec of execution.
+Energy consumption in joules: 2046.6448364257813 for 190.04836 sec of execution.
+Energy consumption in joules: 2046.292236328125 for 190.0483 sec of execution.
+Energy consumption in joules: 2047.5471801757813 for 190.05032 sec of execution.
+Energy consumption in joules: 2049.0199584960938 for 190.05075 sec of execution.
+Energy consumption in joules: 2047.671875 for 190.05031 sec of execution.
+Energy consumption in joules: 2048.1900024414063 for 190.048 sec of execution.
+Energy consumption in joules: 2046.4664916992188 for 190.05618 sec of execution.
+Energy consumption in joules: 2045.4750366210938 for 190.05043 sec of execution.
+Energy consumption in joules: 2049.1354370117188 for 190.05019 sec of execution.
+Energy consumption in joules: 2048.5510864257813 for 190.05113 sec of execution.
+Energy consumption in joules: 2048.8080444335938 for 190.04996 sec of execution.
+Energy consumption in joules: 2047.2299194335938 for 190.04974 sec of execution.
+Energy consumption in joules: 2046.6687622070313 for 190.05035 sec of execution.
+Energy consumption in joules: 2045.6343994140625 for 190.0513 sec of execution.
+Energy consumption in joules: 2045.9014282226563 for 190.0483 sec of execution.
+Energy consumption in joules: 2048.9739379882813 for 190.05035 sec of execution.
+Energy consumption in joules: 2049.3452758789063 for 190.05113 sec of execution.
+Energy consumption in joules: 2048.2965698242188 for 190.05627 sec of execution.
+Energy consumption in joules: 2046.6881103515625 for 190.04802 sec of execution.
+Energy consumption in joules: 2044.2894287109375 for 190.07439 sec of execution.
+Energy consumption in joules: 2044.131103515625 for 190.07303 sec of execution.
+Energy consumption in joules: 2043.7747192382813 for 190.0502 sec of execution.
+Energy consumption in joules: 2046.23779296875 for 190.05113 sec of execution.
+Energy consumption in joules: 2044.5694580078125 for 190.05585 sec of execution.
+Energy consumption in joules: 2043.1153564453125 for 190.0516 sec of execution.
+Energy consumption in joules: 2043.1945190429688 for 190.06343 sec of execution.
+Energy consumption in joules: 2045.7756958007813 for 190.04776 sec of execution.
