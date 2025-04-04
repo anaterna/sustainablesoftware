@@ -1,0 +1,98 @@
+Unable to find image 'luciantosa/resnet50:python' locally
+python: Pulling from luciantosa/resnet50
+7cd785773db4: Pulling fs layer
+091eb8249475: Pulling fs layer
+255774e0027b: Pulling fs layer
+353e14e5cc47: Pulling fs layer
+0c64566c7562: Pulling fs layer
+57161121b343: Pulling fs layer
+a90d73ac0e51: Pulling fs layer
+fc0e694561d2: Pulling fs layer
+4f4fb700ef54: Pulling fs layer
+253854f51d6b: Pulling fs layer
+a8e52fca0d45: Pulling fs layer
+99271ffdd45f: Pulling fs layer
+dbefe14b85dc: Pulling fs layer
+353e14e5cc47: Waiting
+a90d73ac0e51: Waiting
+0c64566c7562: Waiting
+57161121b343: Waiting
+fc0e694561d2: Waiting
+4f4fb700ef54: Waiting
+253854f51d6b: Waiting
+a8e52fca0d45: Waiting
+99271ffdd45f: Waiting
+dbefe14b85dc: Waiting
+091eb8249475: Verifying Checksum
+091eb8249475: Download complete
+7cd785773db4: Verifying Checksum
+7cd785773db4: Download complete
+255774e0027b: Verifying Checksum
+255774e0027b: Download complete
+0c64566c7562: Verifying Checksum
+0c64566c7562: Download complete
+a90d73ac0e51: Verifying Checksum
+a90d73ac0e51: Download complete
+57161121b343: Verifying Checksum
+57161121b343: Download complete
+fc0e694561d2: Verifying Checksum
+fc0e694561d2: Download complete
+4f4fb700ef54: Download complete
+7cd785773db4: Pull complete
+253854f51d6b: Verifying Checksum
+253854f51d6b: Download complete
+091eb8249475: Pull complete
+353e14e5cc47: Verifying Checksum
+353e14e5cc47: Download complete
+99271ffdd45f: Verifying Checksum
+99271ffdd45f: Download complete
+255774e0027b: Pull complete
+dbefe14b85dc: Verifying Checksum
+dbefe14b85dc: Download complete
+353e14e5cc47: Pull complete
+0c64566c7562: Pull complete
+57161121b343: Pull complete
+a90d73ac0e51: Pull complete
+fc0e694561d2: Pull complete
+4f4fb700ef54: Pull complete
+253854f51d6b: Pull complete
+a8e52fca0d45: Verifying Checksum
+a8e52fca0d45: Download complete
+a8e52fca0d45: Pull complete
+99271ffdd45f: Pull complete
+dbefe14b85dc: Pull complete
+Digest: sha256:10d67ccbfa79005c3be09579bb3e4d26496a65a4d0513ee3ce309e8cf8152282
+Status: Downloaded newer image for luciantosa/resnet50:python
+Energy consumption in joules: 4668.509521484375 for 330.05032 sec of execution.
+Energy consumption in joules: 2044.5436401367188 for 190.05025 sec of execution.
+Energy consumption in joules: 2043.64892578125 for 190.04732 sec of execution.
+Energy consumption in joules: 2045.0847778320313 for 190.056 sec of execution.
+Energy consumption in joules: 2043.2504272460938 for 190.05048 sec of execution.
+Energy consumption in joules: 2045.6317138671875 for 190.05128 sec of execution.
+Energy consumption in joules: 2046.0352783203125 for 190.05186 sec of execution.
+Energy consumption in joules: 2045.5618286132813 for 190.05547 sec of execution.
+Energy consumption in joules: 2044.5851440429688 for 190.05617 sec of execution.
+Energy consumption in joules: 2043.1788940429688 for 190.04771 sec of execution.
+Energy consumption in joules: 2044.7886962890625 for 190.04932 sec of execution.
+Energy consumption in joules: 2043.4805297851563 for 190.04756 sec of execution.
+Energy consumption in joules: 2045.5608520507813 for 190.0509 sec of execution.
+Energy consumption in joules: 2044.3082275390625 for 190.05087 sec of execution.
+Energy consumption in joules: 2043.3341674804688 for 190.04811 sec of execution.
+Energy consumption in joules: 2043.164306640625 for 190.07243 sec of execution.
+Energy consumption in joules: 2211.7315063476563 for 190.04787 sec of execution.
+Energy consumption in joules: 2045.8394775390625 for 190.05736 sec of execution.
+Energy consumption in joules: 2045.5227661132813 for 190.05188 sec of execution.
+Energy consumption in joules: 2045.5489501953125 for 190.05043 sec of execution.
+Energy consumption in joules: 2043.967529296875 for 190.0501 sec of execution.
+Energy consumption in joules: 2043.4515991210938 for 190.0473 sec of execution.
+Energy consumption in joules: 2044.9379272460938 for 190.04999 sec of execution.
+Energy consumption in joules: 2043.5796508789063 for 190.05351 sec of execution.
+Energy consumption in joules: 2045.670654296875 for 190.06299 sec of execution.
+Energy consumption in joules: 2045.376708984375 for 190.05034 sec of execution.
+Energy consumption in joules: 2043.6195068359375 for 190.05399 sec of execution.
+Energy consumption in joules: 2043.3366088867188 for 190.04959 sec of execution.
+Energy consumption in joules: 2043.2322387695313 for 190.05318 sec of execution.
+Energy consumption in joules: 2045.1974487304688 for 190.0585 sec of execution.
+Energy consumption in joules: 2045.0924682617188 for 190.04626 sec of execution.
+Energy consumption in joules: 2045.4925537109375 for 190.06126 sec of execution.
+Energy consumption in joules: 2045.62744140625 for 190.05106 sec of execution.

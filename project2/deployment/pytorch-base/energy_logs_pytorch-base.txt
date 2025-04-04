@@ -1,0 +1,432 @@
+[sudo] password for aterna: Unable to find image 'luciantosa/resnet50:pytorch-base' locally
+pytorch-base: Pulling from luciantosa/resnet50
+7007490126ef: Pulling fs layer
+f030756bea58: Pulling fs layer
+002e0840847c: Pulling fs layer
+4f4fb700ef54: Pulling fs layer
+4f4fb700ef54: Waiting
+e991862a3134: Pulling fs layer
+cd7307557ac8: Pulling fs layer
+e991862a3134: Waiting
+cd7307557ac8: Waiting
+31decc86d448: Pulling fs layer
+31decc86d448: Waiting
+7d984a8ee590: Pulling fs layer
+7d984a8ee590: Waiting
+f030756bea58: Download complete
+7007490126ef: Verifying Checksum
+7007490126ef: Download complete
+4f4fb700ef54: Verifying Checksum
+4f4fb700ef54: Download complete
+e991862a3134: Verifying Checksum
+e991862a3134: Download complete
+cd7307557ac8: Download complete
+31decc86d448: Verifying Checksum
+31decc86d448: Download complete
+7d984a8ee590: Verifying Checksum
+7d984a8ee590: Download complete
+7007490126ef: Pull complete
+f030756bea58: Pull complete
+002e0840847c: Verifying Checksum
+002e0840847c: Download complete
+002e0840847c: Pull complete
+4f4fb700ef54: Pull complete
+e991862a3134: Pull complete
+cd7307557ac8: Pull complete
+31decc86d448: Pull complete
+7d984a8ee590: Pull complete
+Digest: sha256:995fdbe7864df3397929b67edc23aa13a48e5a8179f295fe8ecef62ddfd5623a
+Status: Downloaded newer image for luciantosa/resnet50:pytorch-base
+[sudo] password for aterna: Using cpu device
+[256, 512, 1024, 2048]
+Experiment 1/1 is running for image size 256x256
+Experiment took 29.251643896102905 seconds for experience
+Experiment 1/1 is running for image size 512x512
+Experiment took 50.66226863861084 seconds for experience
+Experiment 1/1 is running for image size 1024x1024
+Experiment took 137.48681783676147 seconds for experience
+Experiment 1/1 is running for image size 2048x2048
+Experiment took 524.833954334259 seconds for experience
+Using cpu device
+[256, 512, 1024, 2048]
+Experiment 1/1 is running for image size 256x256
+Experiment took 29.319255352020264 seconds for experience
+Experiment 1/1 is running for image size 512x512
+Experiment took 50.31888175010681 seconds for experience
+Experiment 1/1 is running for image size 1024x1024
+Experiment took 138.40200519561768 seconds for experience
+Experiment 1/1 is running for image size 2048x2048
+Experiment took 524.3699295520782 seconds for experience
+Energy consumption in joules: 37540.493225097656 for 810.04614 sec of execution.
+Using cpu device
+[256, 512, 1024, 2048]
+Experiment 1/1 is running for image size 256x256
+Experiment took 29.141324758529663 seconds for experience
+Experiment 1/1 is running for image size 512x512
+Experiment took 50.26276111602783 seconds for experience
+Experiment 1/1 is running for image size 1024x1024
+Experiment took 136.05762004852295 seconds for experience
+Experiment 1/1 is running for image size 2048x2048
+Experiment took 530.2162487506866 seconds for experience
+Energy consumption in joules: 37328.32849121094 for 790.0661 sec of execution.
+Using cpu device
+[256, 512, 1024, 2048]
+Experiment 1/1 is running for image size 256x256
+Experiment took 29.166473150253296 seconds for experience
+Experiment 1/1 is running for image size 512x512
+Experiment took 50.67544436454773 seconds for experience
+Experiment 1/1 is running for image size 1024x1024
+Experiment took 140.0476429462433 seconds for experience
+Experiment 1/1 is running for image size 2048x2048
+Experiment took 540.9358446598053 seconds for experience
+Energy consumption in joules: 38307.924072265625 for 840.07477 sec of execution.
+[sudo] password for aterna: Using cpu device
+[256, 512, 1024, 2048]
+Experiment 1/1 is running for image size 256x256
+Experiment took 29.09899115562439 seconds for experience
+Experiment 1/1 is running for image size 512x512
+Experiment took 49.9561505317688 seconds for experience
+Experiment 1/1 is running for image size 1024x1024
+Experiment took 136.01660823822021 seconds for experience
+Experiment 1/1 is running for image size 2048x2048
+Experiment took 530.5777547359467 seconds for experience
+Energy consumption in joules: 37248.58905029297 for 810.103 sec of execution.
+Using cpu device
+[256, 512, 1024, 2048]
+Experiment 1/1 is running for image size 256x256
+Experiment took 31.72862219810486 seconds for experience
+Experiment 1/1 is running for image size 512x512
+Experiment took 50.68117618560791 seconds for experience
+Experiment 1/1 is running for image size 1024x1024
+Experiment took 136.37306094169617 seconds for experience
+Experiment 1/1 is running for image size 2048x2048
+Experiment took 528.9994909763336 seconds for experience
+Energy consumption in joules: 37901.565185546875 for 840.0782 sec of execution.
+[sudo] password for aterna: Using cpu device
+[256, 512, 1024, 2048]
+Experiment 1/1 is running for image size 256x256
+Experiment took 28.962809085845947 seconds for experience
+Experiment 1/1 is running for image size 512x512
+Experiment took 51.3808388710022 seconds for experience
+Experiment 1/1 is running for image size 1024x1024
+Experiment took 137.37624549865723 seconds for experience
+Experiment 1/1 is running for image size 2048x2048
+Experiment took 527.8838703632355 seconds for experience
+Energy consumption in joules: 37202.14276123047 for 830.0794 sec of execution.
+Using cpu device
+[256, 512, 1024, 2048]
+Experiment 1/1 is running for image size 256x256
+Experiment took 29.08584690093994 seconds for experience
+Experiment 1/1 is running for image size 512x512
+Experiment took 50.39234375953674 seconds for experience
+Experiment 1/1 is running for image size 1024x1024
+Experiment took 137.19603300094604 seconds for experience
+Experiment 1/1 is running for image size 2048x2048
+Experiment took 555.8606014251709 seconds for experience
+[sudo] password for aterna: Using cpu device
+[256, 512, 1024, 2048]
+Experiment 1/1 is running for image size 256x256
+Experiment took 29.17057704925537 seconds for experience
+Experiment 1/1 is running for image size 512x512
+Experiment took 50.39442157745361 seconds for experience
+Experiment 1/1 is running for image size 1024x1024
+Experiment took 134.57620882987976 seconds for experience
+Experiment 1/1 is running for image size 2048x2048
+Experiment took 522.7713830471039 seconds for experience
+Energy consumption in joules: 37309.44885253906 for 810.0799 sec of execution.
+Using cpu device
+[256, 512, 1024, 2048]
+Experiment 1/1 is running for image size 256x256
+Experiment took 28.852421760559082 seconds for experience
+Experiment 1/1 is running for image size 512x512
+Experiment took 50.23429465293884 seconds for experience
+Experiment 1/1 is running for image size 1024x1024
+Experiment took 136.52098393440247 seconds for experience
+Experiment 1/1 is running for image size 2048x2048
+Experiment took 516.1386008262634 seconds for experience
+Energy consumption in joules: 36857.823791503906 for 780.06866 sec of execution.
+Using cpu device
+[256, 512, 1024, 2048]
+Experiment 1/1 is running for image size 256x256
+Experiment took 29.1670982837677 seconds for experience
+Experiment 1/1 is running for image size 512x512
+Experiment took 50.27168130874634 seconds for experience
+Experiment 1/1 is running for image size 1024x1024
+Experiment took 137.11833786964417 seconds for experience
+Experiment 1/1 is running for image size 2048x2048
+Experiment took 545.960999250412 seconds for experience
+Energy consumption in joules: 38069.990295410156 for 840.0569 sec of execution.
+[sudo] password for aterna: Using cpu device
+[256, 512, 1024, 2048]
+Experiment 1/1 is running for image size 256x256
+Experiment took 29.14164638519287 seconds for experience
+Experiment 1/1 is running for image size 512x512
+Experiment took 50.40350294113159 seconds for experience
+Experiment 1/1 is running for image size 1024x1024
+Experiment took 136.3578884601593 seconds for experience
+Experiment 1/1 is running for image size 2048x2048
+Experiment took 522.3230140209198 seconds for experience
+Energy consumption in joules: 37498.09832763672 for 820.07526 sec of execution.
+Using cpu device
+[256, 512, 1024, 2048]
+Experiment 1/1 is running for image size 256x256
+Experiment took 28.889777183532715 seconds for experience
+Experiment 1/1 is running for image size 512x512
+Experiment took 50.08405518531799 seconds for experience
+Experiment 1/1 is running for image size 1024x1024
+Experiment took 138.5840926170349 seconds for experience
+Experiment 1/1 is running for image size 2048x2048
+Experiment took 519.7355389595032 seconds for experience
+Energy consumption in joules: 37059.975524902344 for 780.0758 sec of execution.
+Using cpu device
+[256, 512, 1024, 2048]
+Experiment 1/1 is running for image size 256x256
+Experiment took 29.048092126846313 seconds for experience
+Experiment 1/1 is running for image size 512x512
+Experiment took 49.91024589538574 seconds for experience
+Experiment 1/1 is running for image size 1024x1024
+Experiment took 136.81689476966858 seconds for experience
+Experiment 1/1 is running for image size 2048x2048
+Experiment took 532.2630655765533 seconds for experience
+Energy consumption in joules: 37349.857360839844 for 800.0526 sec of execution.
+Using cpu device
+[256, 512, 1024, 2048]
+Experiment 1/1 is running for image size 256x256
+Experiment took 29.104796648025513 seconds for experience
+Experiment 1/1 is running for image size 512x512
+Experiment took 50.008843660354614 seconds for experience
+Experiment 1/1 is running for image size 1024x1024
+Experiment took 137.0300133228302 seconds for experience
+Experiment 1/1 is running for image size 2048x2048
+Experiment took 523.881630897522 seconds for experience
+Using cpu device
+[256, 512, 1024, 2048]
+Experiment 1/1 is running for image size 256x256
+Experiment took 29.018832206726074 seconds for experience
+Experiment 1/1 is running for image size 512x512
+Experiment took 50.12373328208923 seconds for experience
+Experiment 1/1 is running for image size 1024x1024
+Experiment took 138.97287940979004 seconds for experience
+Experiment 1/1 is running for image size 2048x2048
+Experiment took 531.540595293045 seconds for experience
+Energy consumption in joules: 37748.064880371094 for 810.0744 sec of execution.
+Using cpu device
+[256, 512, 1024, 2048]
+Experiment 1/1 is running for image size 256x256
+Experiment took 29.078806400299072 seconds for experience
+Experiment 1/1 is running for image size 512x512
+Experiment took 50.27302289009094 seconds for experience
+Experiment 1/1 is running for image size 1024x1024
+Experiment took 136.43876194953918 seconds for experience
+Experiment 1/1 is running for image size 2048x2048
+Experiment took 520.7420361042023 seconds for experience
+Energy consumption in joules: 36951.503967285156 for 790.06116 sec of execution.
+Using cpu device
+[256, 512, 1024, 2048]
+Experiment 1/1 is running for image size 256x256
+Experiment took 28.917908191680908 seconds for experience
+Experiment 1/1 is running for image size 512x512
+Experiment took 50.895838022232056 seconds for experience
+Experiment 1/1 is running for image size 1024x1024
+Experiment took 137.8573796749115 seconds for experience
+Experiment 1/1 is running for image size 2048x2048
+Experiment took 524.0920586585999 seconds for experience
+Energy consumption in joules: 37379.79071044922 for 800.0759 sec of execution.
+Using cpu device
+[256, 512, 1024, 2048]
+Experiment 1/1 is running for image size 256x256
+Experiment took 29.069167613983154 seconds for experience
+Experiment 1/1 is running for image size 512x512
+Experiment took 50.61314272880554 seconds for experience
+Experiment 1/1 is running for image size 1024x1024
+Experiment took 137.105327129364 seconds for experience
+Experiment 1/1 is running for image size 2048x2048
+Experiment took 519.7873196601868 seconds for experience
+Energy consumption in joules: 37416.09094238281 for 820.0759 sec of execution.
+Using cpu device
+[256, 512, 1024, 2048]
+Experiment 1/1 is running for image size 256x256
+Experiment took 28.896395921707153 seconds for experience
+Experiment 1/1 is running for image size 512x512
+Experiment took 50.047252893447876 seconds for experience
+Experiment 1/1 is running for image size 1024x1024
+Experiment took 137.59558820724487 seconds for experience
+Experiment 1/1 is running for image size 2048x2048
+Experiment took 526.3214476108551 seconds for experience
+Energy consumption in joules: 37398.7177734375 for 790.0733 sec of execution.
+Using cpu device
+[256, 512, 1024, 2048]
+Experiment 1/1 is running for image size 256x256
+Experiment took 29.109084844589233 seconds for experience
+Experiment 1/1 is running for image size 512x512
+Experiment took 50.32005000114441 seconds for experience
+Experiment 1/1 is running for image size 1024x1024
+Experiment took 137.08392357826233 seconds for experience
+Experiment 1/1 is running for image size 2048x2048
+Experiment took 535.3664448261261 seconds for experience
+Energy consumption in joules: 37379.19696044922 for 810.0682 sec of execution.
+Using cpu device
+[256, 512, 1024, 2048]
+Experiment 1/1 is running for image size 256x256
+Experiment took 29.259943962097168 seconds for experience
+Experiment 1/1 is running for image size 512x512
+Experiment took 50.911354541778564 seconds for experience
+Experiment 1/1 is running for image size 1024x1024
+Experiment took 138.2172691822052 seconds for experience
+Experiment 1/1 is running for image size 2048x2048
+Experiment took 542.1217074394226 seconds for experience
+[sudo] password for aterna: Using cpu device
+[256, 512, 1024, 2048]
+Experiment 1/1 is running for image size 256x256
+Experiment took 28.843883514404297 seconds for experience
+Experiment 1/1 is running for image size 512x512
+Experiment took 50.774988412857056 seconds for experience
+Experiment 1/1 is running for image size 1024x1024
+Experiment took 138.75222778320312 seconds for experience
+Experiment 1/1 is running for image size 2048x2048
+Experiment took 517.616457939148 seconds for experience
+Energy consumption in joules: 37121.342224121094 for 800.0746 sec of execution.
+Using cpu device
+[256, 512, 1024, 2048]
+Experiment 1/1 is running for image size 256x256
+Experiment took 29.071748971939087 seconds for experience
+Experiment 1/1 is running for image size 512x512
+Experiment took 50.25782346725464 seconds for experience
+Experiment 1/1 is running for image size 1024x1024
+Experiment took 138.4620237350464 seconds for experience
+Experiment 1/1 is running for image size 2048x2048
+Experiment took 545.5083527565002 seconds for experience
+Energy consumption in joules: 38026.428161621094 for 820.05237 sec of execution.
+Using cpu device
+[256, 512, 1024, 2048]
+Experiment 1/1 is running for image size 256x256
+Experiment took 28.925257921218872 seconds for experience
+Experiment 1/1 is running for image size 512x512
+Experiment took 49.91581678390503 seconds for experience
+Experiment 1/1 is running for image size 1024x1024
+Experiment took 136.42500638961792 seconds for experience
+Experiment 1/1 is running for image size 2048x2048
+Experiment took 518.7846918106079 seconds for experience
+Energy consumption in joules: 37255.136779785156 for 810.0782 sec of execution.
+Using cpu device
+[256, 512, 1024, 2048]
+Experiment 1/1 is running for image size 256x256
+Experiment took 29.09501028060913 seconds for experience
+Experiment 1/1 is running for image size 512x512
+Experiment took 51.77200889587402 seconds for experience
+Experiment 1/1 is running for image size 1024x1024
+Experiment took 135.9517319202423 seconds for experience
+Experiment 1/1 is running for image size 2048x2048
+Experiment took 523.8691129684448 seconds for experience
+Energy consumption in joules: 36990.46740722656 for 790.08167 sec of execution.
+Using cpu device
+[256, 512, 1024, 2048]
+Experiment 1/1 is running for image size 256x256
+Experiment took 29.007600784301758 seconds for experience
+Experiment 1/1 is running for image size 512x512
+Experiment took 50.34361290931702 seconds for experience
+Experiment 1/1 is running for image size 1024x1024
+Experiment took 137.2704939842224 seconds for experience
+Experiment 1/1 is running for image size 2048x2048
+Experiment took 523.8895351886749 seconds for experience
+Energy consumption in joules: 37259.97149658203 for 790.07776 sec of execution.
+Using cpu device
+[256, 512, 1024, 2048]
+Experiment 1/1 is running for image size 256x256
+Experiment took 29.15994930267334 seconds for experience
+Experiment 1/1 is running for image size 512x512
+Experiment took 50.506017208099365 seconds for experience
+Experiment 1/1 is running for image size 1024x1024
+Experiment took 137.0057191848755 seconds for experience
+Experiment 1/1 is running for image size 2048x2048
+Experiment took 523.3960752487183 seconds for experience
+Using cpu device
+[256, 512, 1024, 2048]
+Experiment 1/1 is running for image size 256x256
+Experiment took 29.149643182754517 seconds for experience
+Experiment 1/1 is running for image size 512x512
+Experiment took 50.21691823005676 seconds for experience
+Experiment 1/1 is running for image size 1024x1024
+Experiment took 137.10076355934143 seconds for experience
+Experiment 1/1 is running for image size 2048x2048
+Experiment took 523.5062446594238 seconds for experience
+Energy consumption in joules: 37244.39208984375 for 790.0616 sec of execution.
+Using cpu device
+[256, 512, 1024, 2048]
+Experiment 1/1 is running for image size 256x256
+Experiment took 28.80133843421936 seconds for experience
+Experiment 1/1 is running for image size 512x512
+Experiment took 49.78887391090393 seconds for experience
+Experiment 1/1 is running for image size 1024x1024
+Experiment took 136.67343282699585 seconds for experience
+Experiment 1/1 is running for image size 2048x2048
+Experiment took 535.48291182518 seconds for experience
+Energy consumption in joules: 37679.48956298828 for 800.0726 sec of execution.
+Using cpu device
+[256, 512, 1024, 2048]
+Experiment 1/1 is running for image size 256x256
+Experiment took 30.517372846603394 seconds for experience
+Experiment 1/1 is running for image size 512x512
+Experiment took 50.80920934677124 seconds for experience
+Experiment 1/1 is running for image size 1024x1024
+Experiment took 138.49739909172058 seconds for experience
+Experiment 1/1 is running for image size 2048x2048
+Experiment took 589.7533340454102 seconds for experience
+Energy consumption in joules: 37847.645080566406 for 860.06134 sec of execution.
+[sudo] password for aterna: Using cpu device
+[256, 512, 1024, 2048]
+Experiment 1/1 is running for image size 256x256
+Experiment took 29.158195734024048 seconds for experience
+Experiment 1/1 is running for image size 512x512
+Experiment took 50.30384302139282 seconds for experience
+Experiment 1/1 is running for image size 1024x1024
+Experiment took 139.03866982460022 seconds for experience
+Experiment 1/1 is running for image size 2048x2048
+Experiment took 549.2476396560669 seconds for experience
+Energy consumption in joules: 38240.560974121094 for 820.065 sec of execution.
+Using cpu device
+[256, 512, 1024, 2048]
+Experiment 1/1 is running for image size 256x256
+Experiment took 29.025320291519165 seconds for experience
+Experiment 1/1 is running for image size 512x512
+Experiment took 49.988263845443726 seconds for experience
+Experiment 1/1 is running for image size 1024x1024
+Experiment took 135.60094261169434 seconds for experience
+Experiment 1/1 is running for image size 2048x2048
+Experiment took 530.2175395488739 seconds for experience
+Energy consumption in joules: 37345.636779785156 for 790.07306 sec of execution.
+Using cpu device
+[256, 512, 1024, 2048]
+Experiment 1/1 is running for image size 256x256
+Experiment took 29.0448260307312 seconds for experience
+Experiment 1/1 is running for image size 512x512
+Experiment took 50.28265953063965 seconds for experience
+Experiment 1/1 is running for image size 1024x1024
+Experiment took 137.3916518688202 seconds for experience
+Experiment 1/1 is running for image size 2048x2048
+Experiment took 536.0773801803589 seconds for experience
+Using cpu device
+[256, 512, 1024, 2048]
+Experiment 1/1 is running for image size 256x256
+Experiment took 29.013570070266724 seconds for experience
+Experiment 1/1 is running for image size 512x512
+Experiment took 49.99707579612732 seconds for experience
+Experiment 1/1 is running for image size 1024x1024
+Experiment took 136.89241290092468 seconds for experience
+Experiment 1/1 is running for image size 2048x2048
+Experiment took 522.2841823101044 seconds for experience
+Energy consumption in joules: 37068.565979003906 for 780.0806 sec of execution.
+
+thread 'main' panicked at /rustc/4eb161250e340c8f48f66e2b929ef4a5bed7c181/library/core/src/time.rs:1138:31:
+overflow when subtracting durations
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+Using cpu device
+[256, 512, 1024, 2048]
+Experiment 1/1 is running for image size 256x256
+Experiment took 29.179708003997803 seconds for experience
+Experiment 1/1 is running for image size 512x512
+Experiment took 50.12237596511841 seconds for experience
+Experiment 1/1 is running for image size 1024x1024
+Experiment took 138.09483218193054 seconds for experience
+Experiment 1/1 is running for image size 2048x2048
+Experiment took 562.3613970279694 seconds for experience
