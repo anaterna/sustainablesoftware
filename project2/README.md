@@ -7,7 +7,7 @@ This project measures the energy consumption of various Docker base images using
 
 - Docker: The project assumes that Docker images are available and can be run via Docker commands.
 
-- EnergyBridge: Used for measuring energy consumption, make sure it is installed in the correct directory (./energy_measurement/energibridge_folder/energibridge).
+- EnergyBridge: Used for measuring energy consumption, make sure it is installed in the correct directory (`./energy_measurement/energibridge_folder/energibridge`).
 
 - Python 3.x: Required to run the experiment script.
 
@@ -16,7 +16,7 @@ This project measures the energy consumption of various Docker base images using
 ## Installation
 
 1. Clone the repository or download the script.
-2. Ensure that EnergyBridge is installed and accessible from the path specified in the script (./energy_measurement/energibridge_folder/energibridge).
+2. Ensure that EnergyBridge is installed and accessible from the path specified in the script (`./energy_measurement/energibridge_folder/energibridge`).
 3. Install the required Python packages: `pip install -r requirements.txt`
 
 ## Usage
@@ -57,7 +57,7 @@ python energy_measurement.py --runs 50 --warmup 30 --pause 20
 
 ## Docker Images and Workload
 
-In the `docker_workload` file, you can find all the configured docker images that we used for this experiment and are supported for later experiments as well as the ML workload used, specifically ResNet-50 inference workload, which is found in the `benchmark.py`. 
+In the `docker_workload` folder, you can find all the configured docker images that we used for this experiment and are supported for later experiments as well as the ML workload used, specifically ResNet-50 inference workload, which is found in the `benchmark.py`. 
 
 ## Visualizations
 
